@@ -10,8 +10,6 @@ const fetchRepo = async (name: any) => {
 }
 const Repo = async ({ name }: any) => {
     const repo = await fetchRepo(name)
-    console.log(repo);
-
 
     return (
         <>
